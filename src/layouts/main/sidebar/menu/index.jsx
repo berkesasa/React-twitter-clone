@@ -7,6 +7,7 @@ import New from "./new"
 function Menu() {
     return (
         <nav className="mt-0.5 mb-1">
+
             {mainMenu.map((menu, index) => (
                 <NavLink key={index} to={menu.path} className="block group">
                     {({ isActive }) => (
@@ -26,8 +27,10 @@ function Menu() {
                     }
                 </NavLink>
             ))}
+
             <More />
             <New />
+
         </nav>
     )
 }
