@@ -2,7 +2,6 @@ import { setCurrentAccount } from "../../../../../store/auth/actions"
 import { useAccounts, useAccount } from "../../../../../store/auth/hooks"
 import classNames from "classnames"
 
-
 function More({close}) {
     const currentAccount = useAccount()
     const accounts = useAccounts()
