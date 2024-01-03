@@ -1,4 +1,5 @@
 import Premium from "../../../components/premium"
+import Topics from "../../../components/topics"
 import Search from "./search"
 
 function Rightbar() {
@@ -6,6 +7,7 @@ function Rightbar() {
         <aside className="w-[350px] mr-2.5">
             <Search />
             <Premium />
+            <Topics />
         </aside>
     )
 }
