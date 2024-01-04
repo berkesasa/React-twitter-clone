@@ -1,7 +1,10 @@
 export const numberFormat = value => {
-    return Intl.NumberFormat('tr',{
-        notation: 'compact',
-        maximumFractionDigits: 1
-    })
-    .format(value)
+	let config = {}
+	if (value > 9999) {
+		config = {
+			notation: 'compact',
+			maximumFractionDigits: 1
+		}
+	}
+	return Intl.NumberFormat('tr', config).format(value)
 }
