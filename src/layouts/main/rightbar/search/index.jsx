@@ -14,7 +14,7 @@ function Search() {
     return (
         <div
             ref={ref}
-            className="min-h-[32px] h-[53px] mb-3 flex items-center relative">
+            className="min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-black z-10">
             <label className="h-[43px] rounded-full w-full bg-[#202327] group focus-within:bg-black border border-transparent focus-within:border-[#1d9bf0] relative">
 
                 <div className="w-[56px] h-full flex items-center justify-center absolute top-0 left-0 pointer-events-none">
