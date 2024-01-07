@@ -1,6 +1,7 @@
 import Premium from "./premium"
 import Topics from "./topics"
 import Search from "./search"
+import WhoFollow from "./whofollow"
 
 function Rightbar() {
     return (
@@ -8,6 +9,7 @@ function Rightbar() {
             <Search />
             <Premium />
             <Topics />
+            <WhoFollow />
         </aside>
     )
 }
